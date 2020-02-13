@@ -1,0 +1,51 @@
+html,body{
+    width:100%;
+    margin:0;
+    padding: 0;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: #eceef1;
+}
+.sign-in{
+    display: flex;
+    flex-direction: row;
+    width:25%;
+    margin:.5% 3%;
+    height: 10%;
+    align-self: flex-end;
+    justify-self: flex-start;
+    align-items: center;
+}
+.sign-in__text{
+    font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+font-weight: 400;
+color:#505050;
+font-size: 0.85em;
+width:80%;
+line-height: 1.4;
+text-align: right;
+}
+.sign-in__button{
+    height: 55%;
+    width:35%;
+    margin-left: 2%;
+    background:url("https://plugin.intuitcdn.net/identity-authn-core-ui/images/icon-whitelock@3x-76f33cec.png")  no-repeat;
+    background-position:15% 50%;
+    background-size: 0.9em;
+    padding-left: 7%;
+    color:white;
+    font-size: 0.9em;
+    font-weight: 400;
+    border-radius: 5%;
+    border:1px solid black;
+    background-color: #0077c5;
+
+}
